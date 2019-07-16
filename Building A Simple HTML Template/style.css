@@ -1,0 +1,168 @@
+body{
+	background-color:#666;
+	color:#fff;
+	font-family:arial;
+	line-height:1.4em;
+	padding: 10px;
+
+}
+
+#header{
+	font-family: 'Anton', sans-serif;
+}
+
+li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+ul{
+	padding:0;
+}
+
+.clr{
+	clear:both;
+}
+
+#container{
+	background: gray;	
+	padding:10px;
+	color: white;
+
+}
+
+#nav{
+	height:40px;
+	background:#666;
+}
+
+#nav ul{
+	padding-top:2px;
+	padding-left:10px;
+}
+
+#nav li{
+	list-style:none;
+	float:left;
+	padding-right:20px;
+}
+
+#nav .active{
+	font-weight: bold;
+	color:#000;
+}
+
+#main{
+	float:left;
+	width:60%;
+	font-family: 'Exo', sans-serif;
+	margin-right:30px;
+
+}
+
+#sidebar{	
+	position:relative;
+	float:left;
+	width:30%;
+	background:#666;
+	margin-top:20px;
+	padding:10px;
+	padding-left: 30px;
+	margin-left: 30px;
+
+}
+
+#footer{
+	text-align: center;
+	padding:10px;
+	background:#666;
+	margin-top:30px;
+}
+
+.services li{
+	border-bottom:2px #666 dashed;
+	padding-bottom:20px;
+}
+
+.services a{
+	background:#666;
+	padding:10px;
+}
+
+input, textarea{
+	width:100%;
+	padding:5px;
+	margin-bottom:15px;
+	color:black;
+}
+
+label{
+	padding-top: 10px;	
+}
+
+#selecionado{
+	font-weight: bold;
+	color: black;
+}
+
+#send{
+	font-weight: bold;
+	background: #4F4F4F ;
+
+}
+
+.slider {
+
+	height: 200px;
+}
+.slider img {
+	width: 95%;
+	height: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	
+}
+
+#sidebar h3{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size:50px;
+}
+
+#nav2 {
+	list-style-type:none;
+	z-index:150;
+}
+
+#nav2 li a {
+	display:block;
+	width:58px;
+	height:102px;
+	text-indent:-9999px;
+	outline:none;
+}
+
+#prev a {
+	background:url(img/prev.png);
+	width:58px;
+	height:102px;
+	position:absolute;
+	top:160px;
+	left:-30px;
+}
+
+#next a {
+	background:url(img/next.png);
+	width:58px;
+	height:102px;
+	position:absolute;
+	top:160px;
+	right:-30px;
+}
+#next a:hover {
+	background:url(img/next_hover.png);
+}
+#prev a:hover {
+	background:url(img/prev_hover.png);
+}

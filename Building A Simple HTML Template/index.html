@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home | Simple HTML Template</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+		<script
+		  src="https://code.jquery.com/jquery-3.4.1.js"
+		  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		  crossorigin="anonymous">
+		</script>
+
+		<script src="http://malsup.github.io/jquery.cycle.all.js"></script>
+
+		
+
+	</head>
+	<body >
+		<div class="container-fluid" id="container">
+			<div id="header">
+				<h1>Simple HTML Template</h1>
+			</div>
+
+		<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+		          <div class="navbar-header">
+		            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		              <span class="sr-only">Toggle navigation</span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="#"></a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a  href="about.html">About</a></li>
+					<li><a  href="services.html">Services</a></li>
+					<li><a  href="contact.html">Contact</a></li>						
+				</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+		              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+		            </ul>
+		        </div>
+		    </div>
+		</nav>
+			
+
+			<div id="main">
+				<h1>Welcome</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec eros orci. Aliquam erat volutpat. Vivamus id eros dictum, feugiat nisl et, semper nisi. Nulla hendrerit dignissim dolor, in rhoncus lectus viverra ut. Proin vitae commodo risus. Praesent lacinia non odio ac dignissim. Duis accumsan mi sollicitudin libero pretium consequat. Cras et erat elementum, tristique mi nec, commodo sem. Integer consectetur dui vel elit semper pretium. Vestibulum justo nisi, scelerisque vitae enim vel, porttitor dignissim velit. Aliquam posuere lectus vitae rhoncus posuere. Aenean ante erat, fringilla at odio pellentesque, dictum porttitor leo. Maecenas sodales enim rutrum, molestie libero consequat, luctus magna. Quisque tortor lectus, malesuada id tempus sit amet, sodales vel dui.</p>
+				<p>
+				Nam et lacus nec felis consequat blandit ut et nulla. Nunc turpis orci, gravida non ipsum ut, gravida ultrices mauris. Proin volutpat elit non ex hendrerit, et suscipit magna imperdiet. Fusce in laoreet augue. Vivamus imperdiet justo odio, finibus gravida justo facilisis vitae. Maecenas suscipit ornare accumsan. Sed id augue sed elit rhoncus ullamcorper. Nam accumsan laoreet arcu sit amet elementum.</p>
+			</div>
+
+			<div id="sidebar">
+				<h3>CoffeeTech</h3>
+					<div class="slider">
+						<img src="img/slide1.jpg" width="100%" height="40%">
+						<img src="img/slide2.jpg" width="100%" height="40%">
+						<img src="img/slide3.jpg" width="100%" height="40%">
+						<img src="img/slide4.jpg" width="100%" height="40%">
+						<img src="img/slide5.jpg" width="100%" height="40%">
+											
+					</div>
+					<ul id="nav2">
+						<li id="prev"><a href="#">Previous</a></li>
+						<li id="next"><a href="#">Next</a></li>
+					</ul>
+			</div>
+
+			<div class="clr"></div>
+
+			<div id="footer">
+				<p>Copyright &copy; 2019</p>
+			</div>
+		</div>
+
+	
+
+	<script >
+			$(document).ready(function(){
+				$('.slider').cycle({
+					fx:'fade',
+					pause: 1,
+					prev:'#prev',
+					next:'#next'
+				});
+			});			
+	</script>
+	<script src="js/bootstrap.js"></script>
+	</body>
+</html>
